@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+   // Tá com mal funcionamento. 
+   // Só atende a uma das exigências do LOP.
+   // Precisa swr corrigido.
+
 void procuraPadrao(char *texto, char *padrao){
     int i = 0, j = 0, l = 0;
     char teste[strlen(padrao)];
